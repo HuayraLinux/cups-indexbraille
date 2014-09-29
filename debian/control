@@ -1,0 +1,21 @@
+Source: cups-indexbraille
+Section: graphics
+Priority: optional
+Maintainer: Huayra Developers <huayra-devel@huayragnulinux.com.ar>
+Build-Depends: debhelper (>= 8.0)
+Standards-Version: 3.9.5
+
+Package: cups-indexbraille
+Architecture: any
+Depends: cups,
+         python (<= 2.8),
+         cups-client,
+         ghostscript,
+         libpaper-utils,
+         poppler-utils,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Suggests: system-config-printer-gnome | system-config-printer-kde | system-config-printer
+Description: Backend para impresoras IndexBraille via CUPS
+ CUPS-INDEXBRAILLE provee un backend de CUPS para utilizar las impresoras
+ IndexBraille Everest-D v4.

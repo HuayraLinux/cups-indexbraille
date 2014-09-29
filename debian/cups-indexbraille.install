@@ -1,0 +1,2 @@
+indexbraille usr/lib/cups/backend
+conf/*.conf etc/cups

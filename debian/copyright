@@ -1,0 +1,14 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://github.com/lvm/cups-indexbraille
+
+Files: *
+Copyright: © 2014-2014 Mauro <mauro@krutt.org>
+License: GPL-2+
+  On Debian systems, the complete text of the GNU General Public License
+  can be found in </usr/share/common-licenses/GPL-2>.
+
+Files: debian/*
+Copyright: © 2014-2014 Mauro <mauro@krutt.org>
+License: GPL-2+
+  On Debian systems, the complete text of the GNU General Public License
+  can be found in </usr/share/common-licenses/GPL-2>.
