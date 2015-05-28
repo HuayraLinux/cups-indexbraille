@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 8.0)
 Standards-Version: 3.9.5
 
 Package: cups-indexbraille
-Architecture: any
+Architecture: all
 Depends: cups,
          python (<= 2.8),
          cups-client,
