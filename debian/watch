@@ -1,0 +1,4 @@
+version=3
+
+opts=filenamemangle=s/.+\/v?(\d\S*)\.tar\.gz/cups-indexbraille-$1\.tar\.gz/ \
+https://github.com/lvm/cups-indexbraille/tags .*/v?(\d\S*)\.tar\.gz
